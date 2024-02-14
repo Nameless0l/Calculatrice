@@ -1,0 +1,34 @@
+.container{
+    width: 400px;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+.buttons {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    grid-gap: 10px;
+}
+.display{
+    text-align: right;
+    padding: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.btn{
+    height: 50px;
+    border: 1px solid black;
+    font-size: larger;
+}
+.digit{
+    background-color: #f2f2f2;
+    border-radius: 7px;
+}
+.operator{
+    background-color: orange;
+    border-radius: 10px;
+}
